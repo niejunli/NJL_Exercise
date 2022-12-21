@@ -1,2 +1,0 @@
-# NJL_Exercise
-:coffee:
