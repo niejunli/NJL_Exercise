@@ -1,5 +1,9 @@
 package Q567
 
+/*
+滑动窗口 --- 字符串的排列
+*/
+
 func checkInclusion(s1 string, s2 string) bool {
 	need, window := map[byte]int{}, map[byte]int{}
 	for i := range s1 {
