@@ -1,5 +1,9 @@
 package Q84
 
+/*
+单调栈 --- 柱状图中最大的矩形
+*/
+
 func largestRectangleArea(heights []int) int {
 	var res int
 	var stack = make([]int, 0) // 栈
